@@ -8,7 +8,9 @@ const app = express()
 
 const skills = ["Python", "React", "Node.js", "PostgreSQL", "LangChain"]
 
-app.use(cors())
+app.use(cors({
+    origin: 'https://week2-react.vercel.app'
+}))
 app.use(express.json())
 app.use((req, res, next) => {
     console.log(`${req.method} ${req.url}`)
