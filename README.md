@@ -13,8 +13,12 @@ A simple REST API built with Express.js.
 2. Create a `.env` file: `PORT=3001`
 3. Run: `node index.js`
 
+## Live API
+https://week2-express-production.up.railway.app
+
 ## STACK
 - Node.js
 - Express.js
 - dotenv
 - cors
+- Railway (deployment)
